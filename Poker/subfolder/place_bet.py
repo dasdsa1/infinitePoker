@@ -31,13 +31,13 @@ class place_bet:
 
 	
 		rank_counter = Counter(rank_count)
-		#cardface, occurrences
+		#rank, occurrences
 		ranker = rank_counter.most_common()[:-4-1:-1]
 	
 
 
-		for cardface,occurrences in rank_counter.items():
-				print('in Deal Card, #Occurrences', cardface, occurrences)
+		for rank,occurrences in rank_counter.items():
+				print('in place_bet Rank, #Occurrences', rank, occurrences)
 		
 		
 		

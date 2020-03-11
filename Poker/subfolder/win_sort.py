@@ -79,9 +79,9 @@ class Win_sort:
 		if rank == 10:
 			return 'Trio'
 		if rank == 8:
-			return 'Two Pair'
+			return 'Two Pairs, '
 		if rank == 6:
-			return 'Pair'
+			return 'Pair of'
 		else:
 			return 'Card High'
 	
